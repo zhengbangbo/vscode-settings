@@ -1,6 +1,6 @@
 {
   "[html]": {
-    "editor.defaultFormatter": "Vue.volar"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "Vue.volar"
@@ -16,12 +16,11 @@
   },
   "css.lint.hexColorLength": "ignore",
   "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.ignoreTrimWhitespace": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
     "source.organizeImports": false
   },
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.fontFamily": "Cascadia Code PL, Fira Code, Input Mono, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
@@ -38,15 +37,8 @@
   // Extension configs
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
-  "errorLens.enabledDiagnosticLevels": [
-    "warning",
-    "error"
-  ],
-  "errorLens.excludeBySource": [
-    "cSpell",
-    "Grammarly",
-    "eslint"
-  ],
+  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
   // ESLint config: https://github.com/zhengbangbo/eslint-config
   "eslint.codeAction.showDocumentation": {
     "enable": true
@@ -66,7 +58,6 @@
   ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -78,7 +69,6 @@
   "git.untrackedChanges": "separate",
   "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
   "githubPullRequests.fileListLayout": "tree",
-  "i18n-ally.autoDetection": false,
   "i18n-ally.displayLanguage": "en",
   "i18n-ally.ignoredLocales": [],
   "iconify.annotations": true,
@@ -115,7 +105,6 @@
   "volar.takeOverMode.enabled": "auto",
   "window.autoDetectColorScheme": true,
   "window.zoomLevel": 1,
-  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Vitesse Light",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -198,10 +187,25 @@
   "editor.stickyScroll.enabled": true,
   "vite.autoStart": false,
   "vite.browserType": "system",
-  "workbench.sideBar.location": "right",
   "explorer.incrementalNaming": "smart",
   "workbench.editor.titleScrollbarSizing": "large",
   "window.closeWhenEmpty": true,
   "scm.alwaysShowActions": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "leetcode.endpoint": "leetcode-cn",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "githubPullRequests.pullBranch": "never",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "powermode.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
 }
